@@ -92,7 +92,7 @@ data:
       - env:
         - name: E2E_FOCUS
           value: '\[Conformance\]'
-        image: gcr.io/cf-sandbox-brchan/kube-conformance:latest
+        image: pcfkubo/kube-conformance:latest
         imagePullPolicy: Always
         name: e2e
         volumeMounts:
